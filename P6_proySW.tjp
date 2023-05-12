@@ -192,10 +192,8 @@ task WMGame "Web & Mobile Game" {
     
     task tBEd "Back End General Design" {
       effort 5d
-      allocate dev1
     }
     
-    task 
   }
 }
 
