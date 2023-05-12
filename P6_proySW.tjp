@@ -186,6 +186,17 @@ task WMGame "Web & Mobile Game" {
       charge 12000.0 onstart
     }
   }
+
+  task mobile "Mobile" {
+    chargeset mobile
+    
+    task tBEd "Back End General Design" {
+      effort 5d
+      allocate dev1
+    }
+    
+    task 
+  }
 }
 
 # Now the project has been specified completely. Stopping here would
